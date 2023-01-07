@@ -1,0 +1,96 @@
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+main {
+  padding: 80px;
+}
+.image {
+  width: 300px;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+
+.essentials {
+  display: flex;
+}
+
+.heading_button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.meal-name {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube {
+  background-color: #ff0000;
+  margin-left: 15px;
+}
+.source {
+  background-color: #ffd369;
+
+  color: #000;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.instruction {
+  margin-top: 30px;
+}
+.instruction-para {
+  line-height: 1.8;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+aside::-webkit-scrollbar {
+  display: none;
+}
+
+aside {
+  background-color: #144272;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  height: 100vh;
+  overflow: scroll;
+  position: sticky;
+}
+
+.cat_ori {
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.incredients {
+  margin-top: 30px;
+}
+.incredients h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.incredients-list {
+  margin-left: 5px;
+  list-style: none;
+  line-height: 1.8;
+}
+.incredients-list-items {
+  font-size: 20px;
+}

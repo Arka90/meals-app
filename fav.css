@@ -1,0 +1,24 @@
+.margin {
+  margin-top: 60px;
+}
+
+.margin h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  font-size: 30px;
+  padding: 12px;
+  background: #ffd369;
+  color: red;
+}
+
+.hide {
+  display: none;
+}
