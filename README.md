@@ -2,7 +2,6 @@
 
 Hosted Link : https://arka90.github.io/meals-app/
 
-# DEMO
 
 # How to run locally
 
